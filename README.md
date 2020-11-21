@@ -22,7 +22,7 @@ This code has been written using PyTorch >= 0.4. If you use any source codes inc
 To preprocess the dataset, you can run the following command:
 ```console
 ❱❱❱ cd data/[KVR|CamRest]
-❱❱❱ bash gen.sh
+❱❱❱ bash gen_data.sh
 ```
 
 ## Train a model for task-oriented dialog datasets

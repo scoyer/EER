@@ -1,16 +1,19 @@
 ## Task-Oriented Dialog Generation with Enhanced Entity Representation
 
 This is the PyTorch implementation of the paper:
-**Task-Oriented Dialog Generation with Enhanced Entity Representation**. [**Zhenhao He**], [Jiachun Wang], [Jian Chen]. ***INTERSPEECH 2020***.
+**Task-Oriented Dialog Generation with Enhanced Entity Representation**. ***INTERSPEECH 2020***. [paper link](https://www.isca-speech.org/archive/Interspeech_2020/abstracts/1037.html)
 
 
 This code has been written using PyTorch >= 0.4. If you use any source codes included this toolkit in your work, please cite the following paper. The bibtex are listed below:
 <pre>
-@inproceedings{he2020fg2seq,
-  title={Task-Oriented Dialog Generation with Enhanced Entity Representation},
-  author={He, Zhenhao and Wang, Jiachun and Chen Jian},
-  booktitle={ INTERSPEECH},
-  year={2020}
+@inproceedings{He2020,
+  author={Zhenhao He and Jiachun Wang and Jian Chen},
+  title={{Task-Oriented Dialog Generation with Enhanced Entity Representation}},
+  year=2020,
+  booktitle={Proc. Interspeech 2020},
+  pages={3905--3909},
+  doi={10.21437/Interspeech.2020-1037},
+  url={http://dx.doi.org/10.21437/Interspeech.2020-1037}
 }
 </pre>
 

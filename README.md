@@ -33,7 +33,7 @@ InCar:
 ```
 or CamRest:
 ```console
-❱❱❱ python myTrain.py  -ds cam -b 8 -hdd 128 -lr 0.001 -dr 0.5
+❱❱❱ python myTrain.py  -ds cam -b 8 -hdd 128 -lr 0.001 -dr 0.5 --shareDec
 ```
 
 While training, the model with the best validation is saved. If you want to reuse a model add `-path=path_name_model` to the function call. The model is evaluated by using F1 and BLEU.

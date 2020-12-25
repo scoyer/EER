@@ -27,7 +27,7 @@ class EER(nn.Module):
                  path,
                  B,
                  share_embedding):
-        super(Model, self).__init__()
+        super(EER, self).__init__()
         self.name = "Model"
         self.task = task
         self.vocab = vocab
